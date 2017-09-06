@@ -17,6 +17,7 @@
 		900DA2A21F5A7B6E007F1307 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DA2A11F5A7B6E007F1307 /* Category.swift */; };
 		900DA2A51F5A82EB007F1307 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DA2A41F5A82EB007F1307 /* DataService.swift */; };
 		900DA2A71F5A896A007F1307 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DA2A61F5A896A007F1307 /* MenuVC.swift */; };
+		901AAA761F608D4A00B355DD /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901AAA751F608D4A00B355DD /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		900DA2A11F5A7B6E007F1307 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		900DA2A41F5A82EB007F1307 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		900DA2A61F5A896A007F1307 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		901AAA751F608D4A00B355DD /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				900DA29F1F5A77D2007F1307 /* CategoryCell.swift */,
+				901AAA751F608D4A00B355DD /* ProductCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				900DA2901F5A68F9007F1307 /* DevShop.xcdatamodeld in Sources */,
 				900DA2A71F5A896A007F1307 /* MenuVC.swift in Sources */,
 				900DA2A51F5A82EB007F1307 /* DataService.swift in Sources */,
+				901AAA761F608D4A00B355DD /* ProductCell.swift in Sources */,
 				900DA2881F5A68F9007F1307 /* AppDelegate.swift in Sources */,
 				900DA2A01F5A77D2007F1307 /* CategoryCell.swift in Sources */,
 			);
@@ -349,6 +353,7 @@
 				900DA29B1F5A68F9007F1307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
