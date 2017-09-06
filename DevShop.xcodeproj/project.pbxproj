@@ -18,6 +18,7 @@
 		900DA2A51F5A82EB007F1307 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DA2A41F5A82EB007F1307 /* DataService.swift */; };
 		900DA2A71F5A896A007F1307 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DA2A61F5A896A007F1307 /* MenuVC.swift */; };
 		901AAA761F608D4A00B355DD /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901AAA751F608D4A00B355DD /* ProductCell.swift */; };
+		901AAA781F60910600B355DD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901AAA771F60910600B355DD /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		900DA2A41F5A82EB007F1307 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		900DA2A61F5A896A007F1307 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		901AAA751F608D4A00B355DD /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		901AAA771F60910600B355DD /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				900DA2A11F5A7B6E007F1307 /* Category.swift */,
+				901AAA771F60910600B355DD /* Product.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				900DA28A1F5A68F9007F1307 /* CategoriesVC.swift in Sources */,
 				900DA2A21F5A7B6E007F1307 /* Category.swift in Sources */,
+				901AAA781F60910600B355DD /* Product.swift in Sources */,
 				900DA2901F5A68F9007F1307 /* DevShop.xcdatamodeld in Sources */,
 				900DA2A71F5A896A007F1307 /* MenuVC.swift in Sources */,
 				900DA2A51F5A82EB007F1307 /* DataService.swift in Sources */,
