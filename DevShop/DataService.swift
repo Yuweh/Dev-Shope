@@ -38,10 +38,10 @@ class DataService {
     
     private let shirts = [
         Product(title: "Devslopes Logo Shirt Black", price: "$18", imageName: "shirt01.png"),
-        Product(title: "Devslopes Badge Shirt Light Grey", price: "$18", imageName: "shirt01.png"),
-        Product(title: "Devslopes Logo Shirt Red", price: "$18", imageName: "shirt01.png"),
-        Product(title: "Hustle Delegate Grey", price: "$18", imageName: "shirt0.png"),
-        Product(title: "Kickflip Studio Black ", price: "$18", imageName: "shirt01.png")
+        Product(title: "Devslopes Badge Shirt Light Grey", price: "$18", imageName: "shirt02.png"),
+        Product(title: "Devslopes Logo Shirt Red", price: "$18", imageName: "shirt03.png"),
+        Product(title: "Hustle Delegate Grey", price: "$18", imageName: "shirt04.png"),
+        Product(title: "Kickflip Studio Black ", price: "$18", imageName: "shirt05.png")
     ]
     
     private let digitalGoods = [Product]()
@@ -62,7 +62,7 @@ class DataService {
         case "DIGITAL":
             return getDigitalGoods()
         default:
-            <#code#>
+            return getShirts()
         }
     }
     
